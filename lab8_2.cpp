@@ -2,6 +2,23 @@
 using namespace std;
 
 //Write the function printO() here
+void printO(int line,int number)
+{
+	if(line > 0 && number > 0)
+	{
+		for (int n=0;n<line;n++){
+			for(int i=0;i<number;i++)
+			{
+				cout<<"O";
+			}
+		cout<<"\n";
+		}
+	}
+	else
+	{
+		cout<<"Invalid input";
+	}
+}
 
 int main(){
 	
